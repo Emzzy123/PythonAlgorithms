@@ -54,7 +54,7 @@ def game():
     
     # Generate the random number to be guessed
     answer = randint(1, 100)
- 
+    print(answer)
     # Set the number of turns based on the chosen difficulty level
     turns = set_difficulty()
     
